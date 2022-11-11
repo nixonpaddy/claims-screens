@@ -21,6 +21,9 @@
 
 .btn-secondary{
     width:100%;
+    border: 2px solid black;
+    outline-style: solid;
+    margin:5px;
 }
 
 #form-details{
@@ -29,6 +32,7 @@
     padding: 20px;
     border-radius: 10%;
     border: 3px solid black;
+    
 }
 
 .heading{
@@ -48,4 +52,57 @@
 .submit-button{
     text-align: center;
 }
+
+body{
+    /* max-width:1024px; */
+    margin: auto;
+}
+
+/* .logo{
+    display:inline;
+    float:right;
+    position:relative;
+    width:100px;
+    height:100px;
+
+    
+} */
+
+.logo{
+    height:90%;
+
+    vertical-align:top;
+    display:inline-block;
+    border-radius: 20%;
+    margin-top: -55px;
+    position:relative;
+    float:right;
+ 
+  }
+
+
+
+
+
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+
+
+    .wrapper {
+      background-color: lightblue;
+    }
+
+    form{
+        width:200px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .logo{
+        display: none;
+    }
+
+
+
+  }
 
